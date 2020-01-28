@@ -21,6 +21,6 @@ jobs:
     - name: Build
       run: |
         tag=${{ github.event.head_commit.message }}
-        docker build -t docker.pkg.github.com/cerberus/chrome-node-java:$tag .
+        docker build -t docker.pkg.github.com/cerberus/chrome-node-java/image:$tag .
         docker push docker.pkg.github.com/cerberus/chrome-node-java/image:$tag
       if: contains(github.event.head_commit.message, '.')
