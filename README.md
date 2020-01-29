@@ -5,7 +5,7 @@ A docker image with Google Chrome, Node 12.14.1 &amp; Java 8 for End to End Test
 Google Chrome: 80
 Node 12.14.1
 Java 8
-Supported international fonts e.g. Thai
+Support international fonts e.g. Thai
 ```
 
 ### How to use
