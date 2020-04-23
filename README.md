@@ -7,6 +7,7 @@ Google Chrome: 79
 Node 12.14.1
 Java 8
 Support international fonts e.g. Thai
+allure 2: A report framework
 ```
 
 ### How to use
@@ -14,10 +15,6 @@ Support international fonts e.g. Thai
 ```
 docker pull suncerberus/chrome-node-java:latest
 ```
-
-### This image is ready for..
-
-- [allure 2](https://github.com/allure-framework/allure2): A report framework
 
 ### Disclaimer
 
