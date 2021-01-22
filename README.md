@@ -3,7 +3,7 @@
 A docker image with Google Chrome, Node 12.14.1 &amp; Java 8 for End to End Testing.
 
 ```
-Google Chrome: 79
+Google Chrome: 85 (latest stable)
 Node 12.14.1
 Java 8
 Support international fonts e.g. Thai
@@ -21,4 +21,4 @@ docker pull suncerberus/chrome-node-java:latest
 
 ### Disclaimer
 
-It always use tag `latest`. In security case, decide to fork Dockerfile instead.
+It always use tag `latest`. In security case. Decide to clone a Dockerfile and build it your own instead.
